@@ -3,7 +3,7 @@
 REM v6.1, with a Matcha compatibility edition that fixes dropdown navigation.
 
 ```lua
-loadstring(game:HttpGet("https://gitlab.com/astra-group5825243/rem-ui/-/raw/main/loader.lua"))()
+loadstring(game:HttpGet("https://gitlab.com/ellijahheath/rem-ui/-/raw/main/loader.lua"))()
 ```
 
 The loader opens the Matcha edition. Right Shift toggles the menu. Library API remains available through `getfenv().Rem`.
