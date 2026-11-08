@@ -15,6 +15,16 @@ Dropdowns support a draggable scrollbar, Up/Down buttons, arrow keys, and Page U
 - `dropdown-scroll.lua`: authoritative replacement dropdown renderer.
 - `build.cjs`: applies six exact compatibility changes and fails if the baseline differs.
 
+## Blade Ball
+
+`bladeball.lua` restores the original Blade Ball auto-parry menu from `Rem UI 88.lua`. It loads the REM UI Matcha edition from this repository. Right Shift toggles the menu.
+
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SxGoldenxS/REM-UI/main/bladeball.lua"))()
+```
+
+[Raw Blade Ball source](https://raw.githubusercontent.com/SxGoldenxS/REM-UI/main/bladeball.lua)
+
 ## Verify
 
 Node.js 18 or later:
